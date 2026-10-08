@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>রাগ করো না ❤️</title>
+<style>
+body{margin:0;padding:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#ff758c,#ff7eb3);height:100vh;display:flex;justify-content:center;align-items:center;text-align:center}
+.box{background:white;width:85%;max-width:400px;padding:35px 20px;border-radius:25px;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+.heart{font-size:70px;animation:beat 1s infinite}
+h1{color:#ff3b6b;font-size:32px}
+p{color:#555;font-size:18px;line-height:1.6}
+button{border:0;background:#ff3b6b;color:white;padding:14px 30px;font-size:17px;border-radius:30px;cursor:pointer;margin-top:15px}
+button:hover{background:#e62958}
+#message{display:none;margin-top:20px;color:#ff3b6b;font-size:20px;font-weight:bold}
+@keyframes beat{0%{transform:scale(1)}50%{transform:scale(1.2)}100%{transform:scale(1)}}
+</style>
+</head>
+<body>
+<div class="box">
+<div class="heart">❤️</div>
+<h1>রাগ করো না! 🥺</h1>
+<p>জানি তুমি আমার উপর রাগ করেছো... 😔<br>
+কিন্তু তোমার হাসিটা আমার অনেক প্রিয়। ❤️<br><br>
+তাই প্লিজ রাগটা একটু কমাও। 🥹</p>
+<button onclick="showMessage()">আমাকে মাফ করে দাও ❤️</button>
+<div id="message">Thank You! 🥰❤️<br>তোমার হাসিটাই আমার সবচেয়ে প্রিয়। 💖</div>
+</div>
+<script>
+function showMessage(){document.getElementById("message").style.display="block";}
+</script>
+</body>
+</html>
